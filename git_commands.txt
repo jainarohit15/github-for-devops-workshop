@@ -17,3 +17,4 @@ cd clone_gir
 git clone https://github.com/jainarohit15/github-for-devops-workshop.git
 ls github-for-devops-workshop/
 
+This is new changes via github.
