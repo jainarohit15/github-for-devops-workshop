@@ -1,0 +1,7 @@
+git init
+add testing.py 
+git status
+git rm --cached testing.py 
+git add .    #untrack to unstage
+git commit -m "Added testing file"  #stage to track
+git restore testing.py
