@@ -5,3 +5,13 @@ git rm --cached testing.py
 git add .    #untrack to unstage
 git commit -m "Added testing file"  #stage to track
 git restore testing.py
+
+git remote add origin https://github.com/jainarohit15/github-for-devops-workshop.git
+git remote -v
+git remote set-url origin https://K42yHR8H@github.com/jainarohit15/github-for-devops-workshop.git
+git remote -v
+git push origin master 
+mkdir clone_gir
+cd clone_gir
+git clone https://github.com/jainarohit15/github-for-devops-workshop.git
+ls github-for-devops-workshop/
